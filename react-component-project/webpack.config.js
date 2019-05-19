@@ -8,7 +8,8 @@ const HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin');
 
 
 const BUILD_DIR = path.resolve(__dirname, 'examples/dist');
-const APP_DIR = path.resolve(__dirname, 'examples/src');
+const APP_DIR = path.resolve(__dirname, 'examples/app');
+const SRC_DIR = path.resolve(__dirname, 'src');
 const DEV_SERVER_PUBLIC_PATH = '/'
 const NPM_MODULES_DIR = path.resolve(__dirname, 'node_modules');
 
@@ -63,7 +64,7 @@ module.exports = (env, argv) => {
                             plugins:[ 'transform-object-rest-spread' ]
                         },
                     },
-                    include: APP_DIR
+                    include: [APP_DIR, SRC_DIR,],
                 },
                 /* App css */
                 {
@@ -81,7 +82,7 @@ module.exports = (env, argv) => {
                             }
                         }
                     ],
-                    include: [APP_DIR,],
+                    include: [APP_DIR, SRC_DIR,],
                 },
                 /* NPM package css */
                 {
