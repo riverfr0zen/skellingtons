@@ -1,7 +1,7 @@
 {
-  "name": "markdown-todos-manager",
+  "name": "react-component-project",
   "version": "0.0.0",
-  "description": "todos / issues with markdown",
+  "description": "react-component-project",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest --verbose",
@@ -10,7 +10,7 @@
     "start": "webpack-dev-server --open --port 9000 --mode development --devtool inline-source-map",
     "watch-dev": "./node_modules/.bin/webpack -d --mode development --watch --devtool inline-source-map",
     "build-dev": "./node_modules/.bin/webpack -d  --mode development --devtool inline-source-map",
-    "build-prod": "rm -f dist/*.js dist/*.css dist/*.html dist/*.map && rm -rf dist/assets && ./node_modules/.bin/webpack -p --mode production"
+    "build-prod": "rm -f examples/dist/*.js examples/dist/*.css examples/dist/*.html examples/dist/*.map && rm -rf examples/dist/assets && ./node_modules/.bin/webpack -p --mode production"
   },
   "author": "riverfr0zen@elitemail.org",
   "license": "MIT",
