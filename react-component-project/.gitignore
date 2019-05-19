@@ -1,0 +1,5 @@
+coverage
+local-settings.jsx
+npm-debug.log
+node_modules
+tmp
