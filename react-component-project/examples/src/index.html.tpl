@@ -2,9 +2,9 @@
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="favicon.ico">
-    <title>WorkUp Gen3 (Hippocrates)</title>
-    <meta name="description" content="WorkUp Gen3 (Hippocrates)">
-    <meta name="author" content="WorkUp, Inc.">
+    <title>Example App</title>
+    <meta name="description" content="Example App">
+    <meta name="author" content="riverfr0zen">
 
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
