@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "auto-bind": "^2.1.0",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
